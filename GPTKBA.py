@@ -10,8 +10,8 @@ import openai
 
 
 #API Key stuff, only way I could get it to work and I have no clue why
-os.environ['OpenAI_API_KEY'] = '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'
-openai.api_key = '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'
+os.environ['OpenAI_API_KEY'] = ''
+openai.api_key = ''
 
 prompt='Please answer the following question using only the given information, write any steps in a numbered list, if you dont know the answer, tell them to email canvas@ucsd.edu: '
 loader=DirectoryLoader('C:/Users/Sean/source/repos/GPTKBA', glob= '**/*.txt')
